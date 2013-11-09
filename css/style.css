@@ -1,0 +1,321 @@
+
+/*
+multi-line comment
+*/
+p{
+	margin-top: 15px;
+	}
+
+
+h1, h2, h3, h4{
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+}
+
+#html5 {
+	display: inline-block;
+}
+
+#page{ margin: 20px; }
+
+
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	font-size:150%;
+	font-weight:bold;
+	font-style: italic;
+	display: inline-block;
+
+	/*From the web design article*/
+	font-size: 24px;
+	underline: none;
+	float: left;
+}
+
+
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+				text-decoration: none;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+
+/*article*/
+.navarticle{
+	width: 35% !important;
+}
+
+
+#gamediv {
+	border: 1px black solid;
+	width: 512px;
+	height: 480px;
+	margin: auto;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+
+
+
+#Atw {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#follow {
+	color: black;
+	font: 26px Palatino Linotype italic;
+}
+
+
+#Gamecontent {
+	background: white;
+	position: relative;
+	width: 72%;
+	margin-top: 30px;
+	margin-right: 20px;
+	padding: 20px;
+	clear: both;
+	float: left;
+
+}
+
+
+#WBcontent {
+	margin: 30px 0;
+	margin-right: 300px;
+	width: 97%;
+	background: white;
+	padding: 20px;
+	clear: both;
+	float: left;
+}
+
+
+#Acontent {
+	margin: 30px 0;
+	width: 73.9%;
+	background: white;
+	padding: 20px;
+	clear: both;
+	float: left;
+}
+
+
+#sidebar{
+	float: right;
+	width: 247px;
+	margin: 30px 0px 10px 15px;
+	color: white;
+	background: orange;
+	padding: 8px;
+}
+
+#sidetweet{
+	float: right;
+	width: 247px;
+	margin: 30px 0px 10px 15px;
+	color: white;
+	background: orange;
+	padding: 8px;
+	
+}
+	#sidetweet footer{
+	text-align: right;
+	color: #666;
+	}
+
+
+
+#thecards {
+	clear: both;
+}
+
+#f1_container {
+  position: relative;
+  padding: 10px ;
+  margin: 30px 0px 10px 15px;
+  width:270px;
+  height: 170px;
+  z-index: 1;
+  float: right;
+}
+#f1_container {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 1.0s linear;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: all 1.0s linear;
+  -o-transform-style: preserve-3d;
+  -o-transition: all 1.0s linear;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  
+  -webkit-box-shadow: -5px 5px 5px #aaa;
+  -moz-box-shadow: -5px 5px 5px #aaa;
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  -webkit-transform: rotateY(180deg);
+  -webkit-box-sizing: border-box;
+  -moz-transform: rotateY(180deg);
+  -moz-box-sizing: border-box;
+  -o-transform: rotateY(180deg);
+  -o-box-sizing: border-box;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: orange;
+}
+
+
+
+
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+	clear: both;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+
+
+#WBcontent, #Acontent, #Gamecontent,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+#gamediv,
+ul li a{ box-shadow: 3px 3px 3px black; }
+
+#sidebar,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+#sidetweet,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+
+
+/*Web Design Article*/
+
+#themecolor {
+	float: left;
+	border: 1px black solid;
+}
+	#themecolor ul li{
+		display: inline-block;
+		height: 2px;
+	}
+		#themecolor ul li a{
+				padding: 2px;
+				background: orange;
+		}
+			#themecolor ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#themecolor ul li a:active{ background-color: #ff8f00; }
+
+#themecolor p{
+	text-align: left;
+	font-size: 80%;
+	color: grey;
+}	
+
+
+
+
+
+
+
+
+
+
+/* The opcacity flop
+#black {
+	margin-left: 25%;
+	margin-right: 20%;
+	width: 550px;
+	height: 500px;
+	background: black;
+	padding: 10px;
+	clear: both;
+	float: left;
+	position: absolute;
+}
+#content{
+	margin-left: -10px;
+	margin-top: -10px;
+	width: 550px;
+	height: 500px;
+	background: white;
+	padding: 10px;
+	clear: both;
+	float: left; 
+}
+
+*/
+
